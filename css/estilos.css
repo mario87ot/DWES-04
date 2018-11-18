@@ -1,0 +1,184 @@
+p{
+    text-align: center;
+}
+
+h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: #000033;
+    text-align: center;
+}
+
+.pagina{
+    background-color: aliceblue;
+    width:90%;
+    margin:auto;
+}
+
+.menu {
+    border-radius: 3em;
+	border-color: #144;
+	margin: 1em 0;
+	background-color: #CDD;
+   
+
+}
+
+
+.menu .contenedorMenu ul{
+	list-style:none;
+	text-decoration: none;
+	font-family:sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+	text-align: center;
+}
+
+.menu .contenedorMenu ul li{
+	float: left;
+	padding: 0.5em 1em;
+}
+
+.menu .contenedorMenu ul li a{
+	text-decoration: none;
+	background-color: #177;
+    color: #FFF;
+    display: block;
+	padding: 1em;
+	border-radius: 3em;
+	margin: 0 0.5em;
+}
+
+.itemPrincipal{
+    background-color: #666666;
+    border-radius: 5px;
+    color:white;
+    padding: 10px 10px;
+    margin:8px;
+    font-weight: bold; 
+
+
+}
+.item{
+    border-radius: 5px;
+    background-color: #CCCCCC;
+    color:white;
+    padding: 10px 10px;
+    margin:8px;
+    font-weight: bold;     
+}
+
+.rojo {
+    color:red;
+}
+
+.verde{
+    color:green;
+}
+
+.azul{
+    color:#006699;
+    font-weight: bold;
+}
+.tablaMovimientos{
+    position: relative;
+    width:500px;
+    margin: 20px 375px;
+    text-align: center;    
+    margin: 0 auto;
+}
+
+.centro{
+    margin: 0 auto;
+}
+
+.tabla{
+    margin-top:-90px;
+}
+
+.menuPrincipal{
+    text-align: center;
+    margin: 20px;
+}
+
+.menuAdmin {
+    text-align: center;
+}
+
+.fieldset{
+    width:100px;
+    height:150px;
+    margin: 0 auto;
+}
+
+.item2{
+    border-radius: 5px;
+    background-color: #CCCCCC;
+    color:white;
+    padding: 7px 7px;
+    font-weight: bold; 
+}
+
+.menuUser {
+    text-align: center;
+}
+
+.tablaRecibos{
+    text-align:center;
+    margin: 0 auto;
+}
+
+.tablaRecibos td{
+    width:85px;
+}
+
+.botonDevolver{
+    margin-left: 500px;
+}
+
+.gris{
+    background-color:#CCCCCC;
+}
+
+.formPreferencias{
+    height: auto;
+    width: 400px;
+    margin: 0 auto;
+
+}
+
+.botonIniciar{
+    display:inline;
+    margin-left:80px;
+}
+
+.menuUser {
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    color: #006699;
+}
+
+a{
+    text-decoration: none;
+}
+
+@media screen and (max-width:768px){
+	
+
+	/* MENÚ */
+	.menu .contenedorMenu{
+		border-radius: 2em;
+	}
+
+	.menu .contenedorMenu ul li{
+		width: 90%;
+		padding: 0.5em 0em;
+	}
+
+	.menu .contenedorMenu ul li a{
+		margin: 0 0.5em;
+	}
+
